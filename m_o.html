@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="script/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="script/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c19d7abca1f049759ddc231a22e77b56 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_c19d7abca1f049759ddc231a22e77b56" ></div>
+        
+</body>
+<script>    
+    
+            var map_c19d7abca1f049759ddc231a22e77b56 = L.map(
+                "map_c19d7abca1f049759ddc231a22e77b56",
+                {
+                    center: [33.7086, 114.9225],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                    detectRetina: true,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bb2214d53e1e4f05899708f805f4dc1a = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": true, "maxNativeZoom": 8, "maxZoom": 8, "minZoom": 5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_c19d7abca1f049759ddc231a22e77b56);
+        
+    
+            var marker_48db51faf84e4aef8a55efbc123ccc1c = L.marker(
+                [33.7086, 114.9225],
+                {}
+            ).addTo(map_c19d7abca1f049759ddc231a22e77b56);
+        
+    
+        var popup_18c3be8ecd2845f5b1b476aaa6358227 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_683f1c2a9f344c4e952240b94a2ba674 = $(`<div id="html_683f1c2a9f344c4e952240b94a2ba674" style="width: 100.0%; height: 100.0%;"><b>Pingliangtai</b></div>`)[0];
+            popup_18c3be8ecd2845f5b1b476aaa6358227.setContent(html_683f1c2a9f344c4e952240b94a2ba674);
+        
+
+        marker_48db51faf84e4aef8a55efbc123ccc1c.bindPopup(popup_18c3be8ecd2845f5b1b476aaa6358227)
+        ;
+
+        
+    
+    
+            var marker_c79ca809dc124435b0b33d2827c5ed55 = L.marker(
+                [33.5922, 114.0221],
+                {}
+            ).addTo(map_c19d7abca1f049759ddc231a22e77b56);
+        
+    
+        var popup_dc6448ed9dae49958bafe432c4262f22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_36b27ea120804f8cb88a7b6db04d35f9 = $(`<div id="html_36b27ea120804f8cb88a7b6db04d35f9" style="width: 100.0%; height: 100.0%;">郝家台<br>1234567890</div>`)[0];
+            popup_dc6448ed9dae49958bafe432c4262f22.setContent(html_36b27ea120804f8cb88a7b6db04d35f9);
+        
+
+        marker_c79ca809dc124435b0b33d2827c5ed55.bindPopup(popup_dc6448ed9dae49958bafe432c4262f22)
+        ;
+
+        
+    
+    
+            var marker_8e4b86569ac243d7ab210cd92d090a76 = L.marker(
+                [34.1784, 113.372],
+                {}
+            ).addTo(map_c19d7abca1f049759ddc231a22e77b56);
+        
+    
+        var popup_4684d0d67dc644d1a9877e3ead80ca32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c8349b6f5954fe3a56efb1b72c68a55 = $(`<div id="html_3c8349b6f5954fe3a56efb1b72c68a55" style="width: 100.0%; height: 100.0%;">瓦店<br>1234567</div>`)[0];
+            popup_4684d0d67dc644d1a9877e3ead80ca32.setContent(html_3c8349b6f5954fe3a56efb1b72c68a55);
+        
+
+        marker_8e4b86569ac243d7ab210cd92d090a76.bindPopup(popup_4684d0d67dc644d1a9877e3ead80ca32)
+        ;
+
+        
+    
+</script>
