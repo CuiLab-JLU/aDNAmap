@@ -23,7 +23,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_5e6b11699c6149ecbc4cf9d5c37ac9d1 {
+                #map_e80da570ecf7499ab5a78c8e0eefc0aa {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -35,17 +35,17 @@
 </head>
 <body>    
     
-            <div class="folium-map" id="map_5e6b11699c6149ecbc4cf9d5c37ac9d1" ></div>
+            <div class="folium-map" id="map_e80da570ecf7499ab5a78c8e0eefc0aa" ></div>
         
 </body>
 <script>    
     
-            var map_5e6b11699c6149ecbc4cf9d5c37ac9d1 = L.map(
-                "map_5e6b11699c6149ecbc4cf9d5c37ac9d1",
+            var map_e80da570ecf7499ab5a78c8e0eefc0aa = L.map(
+                "map_e80da570ecf7499ab5a78c8e0eefc0aa",
                 {
-                    center: [37.0, 115.0],
+                    center: [37.0, 100.0],
                     crs: L.CRS.EPSG3857,
-                    zoom: 6,
+                    zoom: 4,
                     zoomControl: true,
                     preferCanvas: false,
                     detectRetina: true,
@@ -56,104 +56,38 @@
 
         
     
-            var tile_layer_f794fc9ca219450d82d3b750b6f72ede = L.tileLayer(
+            var tile_layer_b536f5f1c4b445348b290c64265e69d9 = L.tileLayer(
                 "http://mt2.google.cn/vt/lyrs=p\u0026hl=zh-CN\u0026gl=cn\u0026x={x}\u0026y={y}\u0026z={z}",
-                {"attribution": "Terrain", "detectRetina": true, "maxNativeZoom": 9, "maxZoom": 9, "minZoom": 5, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
-            ).addTo(map_5e6b11699c6149ecbc4cf9d5c37ac9d1);
+                {"attribution": "Terrain", "detectRetina": true, "maxNativeZoom": 9, "maxZoom": 9, "minZoom": 4, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_e80da570ecf7499ab5a78c8e0eefc0aa);
         
     
-            var marker_26da296ed7f843c696d9c7ab91fdda59 = L.marker(
-                [33.7086, 114.9225],
-                {}
-            ).addTo(map_5e6b11699c6149ecbc4cf9d5c37ac9d1);
-        
-    
-            var icon_74a95ed09c87441a9bdd42c1489dd491 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
-            );
-            marker_26da296ed7f843c696d9c7ab91fdda59.setIcon(icon_74a95ed09c87441a9bdd42c1489dd491);
-        
-    
-        var popup_c010e1eefb44441cb09c04774e5f7fe2 = L.popup();
-
-        
-            var html_fefdb0565b224f65baade1a84e3fc715 = $(`<div id="html_fefdb0565b224f65baade1a84e3fc715" style="width: 100.0%; height: 100.0%;"><b>平粮台</b><br><p>PLTM310: 2275-2045cal.BCE; D4b1a, n/a, 仰韶+南方成分(暂不清楚对应何种考古学文化)</p><p>PLTM311: 2201-1844cal.BCE; D4b1a, N1b2*>MF20869, 仰韶+南方成分(暂不清楚对应何种考古学文化)</p><p>PLTM312: 2135-1939cal.BCE; D4b1a, N1b2*>MF20869, 仰韶+南方成分(暂不清楚对应何种考古学文化)</p><p>PLTM313: 2118-1894cal.BCE; F2h, n/a, 仰韶+南方成分(暂不清楚对应何种考古学文化)</p><br><a href="https://doi.org/10.1038/s41467-020-16557-2">查看论文</a></div>`)[0];
-            popup_c010e1eefb44441cb09c04774e5f7fe2.setContent(html_fefdb0565b224f65baade1a84e3fc715);
-        
-
-        marker_26da296ed7f843c696d9c7ab91fdda59.bindPopup(popup_c010e1eefb44441cb09c04774e5f7fe2)
-        ;
-
-        
-    
-    
-            marker_26da296ed7f843c696d9c7ab91fdda59.bindTooltip(
-                `<div>
-                     <p style="font-size:150%;color:orange">平粮台【约4000年前】</p><p style="font-size:100%">造律台文化（龙山时代；新石器晚期）</p><p style="font-size:80%;color:gray">点击图标查看基因组信息</p>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_f2bf3ef6b45942dd80b808213f401514 = L.marker(
-                [33.5922, 114.0221],
-                {}
-            ).addTo(map_5e6b11699c6149ecbc4cf9d5c37ac9d1);
-        
-    
-            var icon_f208a26f296f489580779c98245be367 = L.AwesomeMarkers.icon(
-                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
-            );
-            marker_f2bf3ef6b45942dd80b808213f401514.setIcon(icon_f208a26f296f489580779c98245be367);
-        
-    
-        var popup_326c8cc516e64a93bf6ee02042849202 = L.popup();
-
-        
-            var html_22c8b44a56fd48cbb85fc4b3efaf140e = $(`<div id="html_22c8b44a56fd48cbb85fc4b3efaf140e" style="width: 100.0%; height: 100.0%;"><b>郝家台</b><br><p>HJTM107: 2118-1950cal.BCE; D4, C2b1b1, 仰韶+南方成分(暂不清楚对应何种考古学文化)</p><p>HJTM109: 2031-1888cal.BCE; D4e1a, O2a1a1b, 仰韶+南方成分(暂不清楚对应何种考古学文化)</p><p>HJTM115: 365-207cal.BCE; F4a2, n/a, 龙山成分</p><p>HJTW13: 353-57cal.BCE; -, O2a2a, 龙山成分</p><br><a href="https://doi.org/10.1038/s41467-020-16557-2">查看论文</a></div>`)[0];
-            popup_326c8cc516e64a93bf6ee02042849202.setContent(html_22c8b44a56fd48cbb85fc4b3efaf140e);
-        
-
-        marker_f2bf3ef6b45942dd80b808213f401514.bindPopup(popup_326c8cc516e64a93bf6ee02042849202)
-        ;
-
-        
-    
-    
-            marker_f2bf3ef6b45942dd80b808213f401514.bindTooltip(
-                `<div>
-                     <p style="font-size:150%;color:orange">郝家台</p><p style="font-size:100%">王湾三期文化煤山类型（龙山时代；新石器晚期）;<br>东周文化</p><p style="font-size:80%;color:gray">点击图标查看基因组信息</p>
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var marker_ffcb78b4c6d247f88e1c63c8203bda86 = L.marker(
+            var marker_d3073d850eb4480898659326db1f4694 = L.marker(
                 [34.1784, 113.372],
                 {}
-            ).addTo(map_5e6b11699c6149ecbc4cf9d5c37ac9d1);
+            ).addTo(map_e80da570ecf7499ab5a78c8e0eefc0aa);
         
     
-            var icon_7b6faeb13e9f426eb0f2e4800cb3f3de = L.AwesomeMarkers.icon(
+            var icon_9b516cc879ef4a46b540109215feff3e = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
             );
-            marker_ffcb78b4c6d247f88e1c63c8203bda86.setIcon(icon_7b6faeb13e9f426eb0f2e4800cb3f3de);
+            marker_d3073d850eb4480898659326db1f4694.setIcon(icon_9b516cc879ef4a46b540109215feff3e);
         
     
-        var popup_537d5f2f21e24e53b9091c77240a9913 = L.popup();
+        var popup_5eb51267c2044c31ad0b7c47c793a10d = L.popup();
 
         
-            var html_6c5eaa03258b46339a13a7489949ab11 = $(`<div id="html_6c5eaa03258b46339a13a7489949ab11" style="width: 100.0%; height: 100.0%;"><b>瓦店</b><br><p>WD-WT1H16: 2139-2033cal.BCE; N9a2, O2a2b1a2a1c, 仰韶+南方成分(暂不清楚对应何种考古学文化)</p><p>WD-WT5M2: 2050-1850cal.BCE; D5a2a, n/a, 仰韶+南方成分(暂不清楚对应何种考古学文化)</p><br><a href="https://doi.org/10.1038/s41467-020-16557-2">查看论文</a></div>`)[0];
-            popup_537d5f2f21e24e53b9091c77240a9913.setContent(html_6c5eaa03258b46339a13a7489949ab11);
+            var html_79f00316a4ef42cd8efef183c7e672e0 = $(`<div id="html_79f00316a4ef42cd8efef183c7e672e0" style="width: 100.0%; height: 100.0%;"><b>瓦店</b><br><p>WD-WT1H16: 2139-2033cal.BCE; N9a2, O2a2b1a2a1c, 仰韶+南方成分(暂不清楚对应何种考古学文化)</p><p>WD-WT5M2: 2050-1850cal.BCE; D5a2a, n/a, 仰韶+南方成分(暂不清楚对应何种考古学文化)</p><br><a href="http://www.cnki.com.cn/Article/CJFDTotal-HXKG201904005.htm">查看论文1</a><br><a href="https://doi.org/10.1038/s41467-020-16557-2">查看论文2</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzA4MjA1MTQ4Ng==&mid=100000049&idx=1&sn=48168cee08549efc9ba2bfdb161c34b1&chksm=1f8ae9c028fd60d60ca2ff51f92d285586cc4467adcad6ca84b21fba16af36a84bfc848d8855&mpshare=1&scene=1&srcid=0822sBFnLjMGjQXenNngq8fc&sharer_sharetime=1598084935291&sharer_shareid=f69052cfa0ca88264edded3f7d59d41c&key=55250639f247efc13dbf1349883e695db8658c7f484bb255b11d4788c70ffd62bbf325af33f6c2033518882b4d804116ac8912695a488df3dd7affe3f27c7e738b5ae1b20a5b533bf3fac78f318d1a36177301dde6c4c65a436fbd1057cec8ad51361fffd471e792b7ca50f3735672b48aca76ada069343d3428709ed3344f0c&ascene=1&uin=MTIyMzAwMzkwMA%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=AfFOAaYy1DJryt3Wzh6MZHo%3D&pass_ticket=BYjPKI0ysxCvUjzvGaQvrS531YRxa78AC4JJ3oiYv%2FyXZZ3huJowVAuj%2BR5OK6Xk">关于分析的说明</a></div>`)[0];
+            popup_5eb51267c2044c31ad0b7c47c793a10d.setContent(html_79f00316a4ef42cd8efef183c7e672e0);
         
 
-        marker_ffcb78b4c6d247f88e1c63c8203bda86.bindPopup(popup_537d5f2f21e24e53b9091c77240a9913)
+        marker_d3073d850eb4480898659326db1f4694.bindPopup(popup_5eb51267c2044c31ad0b7c47c793a10d)
         ;
 
         
     
     
-            marker_ffcb78b4c6d247f88e1c63c8203bda86.bindTooltip(
+            marker_d3073d850eb4480898659326db1f4694.bindTooltip(
                 `<div>
                      <p style="font-size:150%;color:orange">瓦店【约4000年前】</p><p style="font-size:100%">王湾三期文化煤山类型（龙山时代；新石器晚期）</p><p style="font-size:80%;color:gray">点击图标查看基因组信息</p>
                  </div>`,
@@ -161,34 +95,166 @@
             );
         
     
-            var marker_99d6c50de7044c4280c4410db0ea1577 = L.marker(
+            var marker_bd07643809ae456b878a40253a1d2a48 = L.marker(
                 [42.0, 114.2],
                 {}
-            ).addTo(map_5e6b11699c6149ecbc4cf9d5c37ac9d1);
+            ).addTo(map_e80da570ecf7499ab5a78c8e0eefc0aa);
         
     
-            var icon_0d18eaa48de0420d9f19b93a046c8bd8 = L.AwesomeMarkers.icon(
+            var icon_00b484d2ae1f4936bc119ca9d99546fc = L.AwesomeMarkers.icon(
                 {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "darkpurple", "prefix": "fa"}
             );
-            marker_99d6c50de7044c4280c4410db0ea1577.setIcon(icon_0d18eaa48de0420d9f19b93a046c8bd8);
+            marker_bd07643809ae456b878a40253a1d2a48.setIcon(icon_00b484d2ae1f4936bc119ca9d99546fc);
         
     
-        var popup_d5f9e1963c5b4be48361cda0ebefc535 = L.popup();
+        var popup_f19f2171b8ce4d8b9f498e3a19c921d0 = L.popup();
 
         
-            var html_9589e1b4aed2482b926154ea67a9da1a = $(`<div id="html_9589e1b4aed2482b926154ea67a9da1a" style="width: 100.0%; height: 100.0%;"><b>裕民</b><br><p>HDY: 8415-8335cal.BP; C5d, n/a, -</p><br><a href="https://www.jstor.org/stable/10.13110/humanbiology.91.1.04">查看论文</a></div>`)[0];
-            popup_d5f9e1963c5b4be48361cda0ebefc535.setContent(html_9589e1b4aed2482b926154ea67a9da1a);
+            var html_e2d3666f77cb4df981f7af496bb72a8e = $(`<div id="html_e2d3666f77cb4df981f7af496bb72a8e" style="width: 100.0%; height: 100.0%;"><b>裕民</b><br><p>HDY: 8415-8335cal.BP; C5d, n/a, -</p><br><a href="https://www.jstor.org/stable/10.13110/humanbiology.91.1.04">查看论文</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzA4MjA1MTQ4Ng==&mid=100000049&idx=1&sn=48168cee08549efc9ba2bfdb161c34b1&chksm=1f8ae9c028fd60d60ca2ff51f92d285586cc4467adcad6ca84b21fba16af36a84bfc848d8855&mpshare=1&scene=1&srcid=0822sBFnLjMGjQXenNngq8fc&sharer_sharetime=1598084935291&sharer_shareid=f69052cfa0ca88264edded3f7d59d41c&key=55250639f247efc13dbf1349883e695db8658c7f484bb255b11d4788c70ffd62bbf325af33f6c2033518882b4d804116ac8912695a488df3dd7affe3f27c7e738b5ae1b20a5b533bf3fac78f318d1a36177301dde6c4c65a436fbd1057cec8ad51361fffd471e792b7ca50f3735672b48aca76ada069343d3428709ed3344f0c&ascene=1&uin=MTIyMzAwMzkwMA%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=AfFOAaYy1DJryt3Wzh6MZHo%3D&pass_ticket=BYjPKI0ysxCvUjzvGaQvrS531YRxa78AC4JJ3oiYv%2FyXZZ3huJowVAuj%2BR5OK6Xk">关于分析的说明</a></div>`)[0];
+            popup_f19f2171b8ce4d8b9f498e3a19c921d0.setContent(html_e2d3666f77cb4df981f7af496bb72a8e);
         
 
-        marker_99d6c50de7044c4280c4410db0ea1577.bindPopup(popup_d5f9e1963c5b4be48361cda0ebefc535)
+        marker_bd07643809ae456b878a40253a1d2a48.bindPopup(popup_f19f2171b8ce4d8b9f498e3a19c921d0)
         ;
 
         
     
     
-            marker_99d6c50de7044c4280c4410db0ea1577.bindTooltip(
+            marker_bd07643809ae456b878a40253a1d2a48.bindTooltip(
                 `<div>
                      <p style="font-size:150%;color:orange">裕民【约8400年前】</p><p style="font-size:100%">裕民文化（新石器早期）</p><p style="font-size:80%;color:gray">点击图标查看基因组信息</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e5b7bac437d46a380b27b0f2053524a = L.marker(
+                [43.6097, 93.1667],
+                {}
+            ).addTo(map_e80da570ecf7499ab5a78c8e0eefc0aa);
+        
+    
+            var icon_4822337d11484c6b82003b52c103e798 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_1e5b7bac437d46a380b27b0f2053524a.setIcon(icon_4822337d11484c6b82003b52c103e798);
+        
+    
+        var popup_21e0311e218d40de8e68bb064990016a = L.popup();
+
+        
+            var html_d97e4007729b4263ac43327f299e2455 = $(`<div id="html_d97e4007729b4263ac43327f299e2455" style="width: 100.0%; height: 100.0%;"><b>石人子沟</b><br><p>M012(中墓): -; U5a2, R1b2, 40%颜那亚+60%东北亚/东亚成分</p><p>M010(小墓): 410–350cal.BCE; D4j1b, n/a, 47.3%颜那亚+33.7%东北亚+19%东亚成分</p><p>M4: 380–200cal.BCE; U4, R1a1a1b2-Z93(Z2121- Z29137- Y36424- Y2424-), 77.3%颜那亚+22.7%东北亚/东亚成分</p><p>M819: -; H15b1, n/a, 57.4%颜那亚+42.6%东北亚/东亚成分</p><p>M820: 285–230cal.BCE; U5b2c+A4718G, n/a, 73.1%颜那亚+26.9%东北亚/东亚成分</p><p>M8R1: 380–200cal.BCE; T1a1b1, IJK (xI xJ xLT xN)[质量较差无法细分], 49.3%颜那亚+50.7%东北亚/东亚成分</p><p>M15-1(殉人): -; I1b, R1b2b2, 69.5%颜那亚+30.5%东北亚/东亚成分</p><p>M15-2(殉人): -; U4+A10523G, Q1a1a(MF1646- Y557-), 80.3%颜那亚+19.7%东北亚/东亚成分</p><p>X3(石圈人牲): -; G3b, Q1a2a2b1-F5400, 25.1%颜那亚+56.6%东北亚+18.3%东亚成分</p><p>F004: 370–190cal.BCE; A17, n/a, 47.7%颜那亚+36.6%东北亚+15.7%东亚成分</p><br><a href="https://doi.org/10.1016/j.cub.2019.06.044">查看论文</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzA4MjA1MTQ4Ng==&mid=100000049&idx=1&sn=48168cee08549efc9ba2bfdb161c34b1&chksm=1f8ae9c028fd60d60ca2ff51f92d285586cc4467adcad6ca84b21fba16af36a84bfc848d8855&mpshare=1&scene=1&srcid=0822sBFnLjMGjQXenNngq8fc&sharer_sharetime=1598084935291&sharer_shareid=f69052cfa0ca88264edded3f7d59d41c&key=55250639f247efc13dbf1349883e695db8658c7f484bb255b11d4788c70ffd62bbf325af33f6c2033518882b4d804116ac8912695a488df3dd7affe3f27c7e738b5ae1b20a5b533bf3fac78f318d1a36177301dde6c4c65a436fbd1057cec8ad51361fffd471e792b7ca50f3735672b48aca76ada069343d3428709ed3344f0c&ascene=1&uin=MTIyMzAwMzkwMA%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=AfFOAaYy1DJryt3Wzh6MZHo%3D&pass_ticket=BYjPKI0ysxCvUjzvGaQvrS531YRxa78AC4JJ3oiYv%2FyXZZ3huJowVAuj%2BR5OK6Xk">关于分析的说明</a></div>`)[0];
+            popup_21e0311e218d40de8e68bb064990016a.setContent(html_d97e4007729b4263ac43327f299e2455);
+        
+
+        marker_1e5b7bac437d46a380b27b0f2053524a.bindPopup(popup_21e0311e218d40de8e68bb064990016a)
+        ;
+
+        
+    
+    
+            marker_1e5b7bac437d46a380b27b0f2053524a.bindTooltip(
+                `<div>
+                     <p style="font-size:150%;color:orange">石人子沟【约2200年前】</p><p style="font-size:100%">焉不拉克文化、巴泽雷克文化、中原文化（战国晚期-西汉初期）</p><p style="font-size:80%;color:gray">点击图标查看基因组信息</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99ad6cf86c5d43d5a31b56f97353410d = L.marker(
+                [40.3364, 88.6725],
+                {}
+            ).addTo(map_e80da570ecf7499ab5a78c8e0eefc0aa);
+        
+    
+            var icon_a38b2ae68922494ab82f4895e6338662 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "pagelines", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_99ad6cf86c5d43d5a31b56f97353410d.setIcon(icon_a38b2ae68922494ab82f4895e6338662);
+        
+    
+        var popup_00b44b05035f425199c4b82c2e885ea0 = L.popup();
+
+        
+            var html_a6283f8041154fa6a5c3e2c7fe1cca69 = $(`<div id="html_a6283f8041154fa6a5c3e2c7fe1cca69" style="width: 100.0%; height: 100.0%;"><b>小河小麦</b><br><p>六倍体普通小麦; 与青藏高原的一些现代地方品种具有更为相似的等位基因频率</p><a href="https://doi.org/10.1111/tpj.14421">查看论文</a><br><a href="http://mp.weixin.qq.com/s?__biz=MzA4MjA1MTQ4Ng==&mid=2247483682&idx=1&sn=2b49abdc9b6c5e15cf0337d1f095b89e&chksm=9f8ae9d3a8fd60c555ec6d2e67b7f3f5428ae2ab8b59837f9c93645ccdae7ec48d1b2c3c40d9&scene=21#wechat_redirect">查看解读</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzA4MjA1MTQ4Ng==&mid=100000049&idx=1&sn=48168cee08549efc9ba2bfdb161c34b1&chksm=1f8ae9c028fd60d60ca2ff51f92d285586cc4467adcad6ca84b21fba16af36a84bfc848d8855&mpshare=1&scene=1&srcid=0822sBFnLjMGjQXenNngq8fc&sharer_sharetime=1598084935291&sharer_shareid=f69052cfa0ca88264edded3f7d59d41c&key=55250639f247efc13dbf1349883e695db8658c7f484bb255b11d4788c70ffd62bbf325af33f6c2033518882b4d804116ac8912695a488df3dd7affe3f27c7e738b5ae1b20a5b533bf3fac78f318d1a36177301dde6c4c65a436fbd1057cec8ad51361fffd471e792b7ca50f3735672b48aca76ada069343d3428709ed3344f0c&ascene=1&uin=MTIyMzAwMzkwMA%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=AfFOAaYy1DJryt3Wzh6MZHo%3D&pass_ticket=BYjPKI0ysxCvUjzvGaQvrS531YRxa78AC4JJ3oiYv%2FyXZZ3huJowVAuj%2BR5OK6Xk">关于分析的说明</a></div>`)[0];
+            popup_00b44b05035f425199c4b82c2e885ea0.setContent(html_a6283f8041154fa6a5c3e2c7fe1cca69);
+        
+
+        marker_99ad6cf86c5d43d5a31b56f97353410d.bindPopup(popup_00b44b05035f425199c4b82c2e885ea0)
+        ;
+
+        
+    
+    
+            marker_99ad6cf86c5d43d5a31b56f97353410d.bindTooltip(
+                `<div>
+                     <p style="font-size:150%;color:orange">小河【约3800-3200年前】</p><p style="font-size:100%">青铜时期</p><p style="font-size:80%;color:gray">点击图标查看基因组信息</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9d40c6e39bee4e0e953cff25e0ca8d94 = L.marker(
+                [40.6782, 88.9342],
+                {}
+            ).addTo(map_e80da570ecf7499ab5a78c8e0eefc0aa);
+        
+    
+            var icon_e1515c7e6d5145e38b1097709535f910 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "pagelines", "iconColor": "white", "markerColor": "lightblue", "prefix": "fa"}
+            );
+            marker_9d40c6e39bee4e0e953cff25e0ca8d94.setIcon(icon_e1515c7e6d5145e38b1097709535f910);
+        
+    
+        var popup_e8560a77441047b095079ead5ec2c511 = L.popup();
+
+        
+            var html_619f0eb253454baf85cf2c65905dfbb7 = $(`<div id="html_619f0eb253454baf85cf2c65905dfbb7" style="width: 100.0%; height: 100.0%;"><b>古墓沟小麦</b><br><p>六倍体普通小麦; 与青藏高原的一些现代地方品种具有更为相似的等位基因频率</p><a href="https://doi.org/10.1111/tpj.14421">查看论文</a><br><a href="http://mp.weixin.qq.com/s?__biz=MzA4MjA1MTQ4Ng==&mid=2247483682&idx=1&sn=2b49abdc9b6c5e15cf0337d1f095b89e&chksm=9f8ae9d3a8fd60c555ec6d2e67b7f3f5428ae2ab8b59837f9c93645ccdae7ec48d1b2c3c40d9&scene=21#wechat_redirect">查看解读</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzA4MjA1MTQ4Ng==&mid=100000049&idx=1&sn=48168cee08549efc9ba2bfdb161c34b1&chksm=1f8ae9c028fd60d60ca2ff51f92d285586cc4467adcad6ca84b21fba16af36a84bfc848d8855&mpshare=1&scene=1&srcid=0822sBFnLjMGjQXenNngq8fc&sharer_sharetime=1598084935291&sharer_shareid=f69052cfa0ca88264edded3f7d59d41c&key=55250639f247efc13dbf1349883e695db8658c7f484bb255b11d4788c70ffd62bbf325af33f6c2033518882b4d804116ac8912695a488df3dd7affe3f27c7e738b5ae1b20a5b533bf3fac78f318d1a36177301dde6c4c65a436fbd1057cec8ad51361fffd471e792b7ca50f3735672b48aca76ada069343d3428709ed3344f0c&ascene=1&uin=MTIyMzAwMzkwMA%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=AfFOAaYy1DJryt3Wzh6MZHo%3D&pass_ticket=BYjPKI0ysxCvUjzvGaQvrS531YRxa78AC4JJ3oiYv%2FyXZZ3huJowVAuj%2BR5OK6Xk">关于分析的说明</a></div>`)[0];
+            popup_e8560a77441047b095079ead5ec2c511.setContent(html_619f0eb253454baf85cf2c65905dfbb7);
+        
+
+        marker_9d40c6e39bee4e0e953cff25e0ca8d94.bindPopup(popup_e8560a77441047b095079ead5ec2c511)
+        ;
+
+        
+    
+    
+            marker_9d40c6e39bee4e0e953cff25e0ca8d94.bindTooltip(
+                `<div>
+                     <p style="font-size:150%;color:orange">古墓沟【约3800-3200年前】</p><p style="font-size:100%">青铜时期</p><p style="font-size:80%;color:gray">点击图标查看基因组信息</p>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fcfef573b5c14d8291370802ba1b0420 = L.marker(
+                [47.105432, 123.600045],
+                {}
+            ).addTo(map_e80da570ecf7499ab5a78c8e0eefc0aa);
+        
+    
+            var icon_f20afc1963df43a0af1bc159a801b549 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "circle", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fcfef573b5c14d8291370802ba1b0420.setIcon(icon_f20afc1963df43a0af1bc159a801b549);
+        
+    
+        var popup_e4a9c3afaf534393946da7a757d53f53 = L.popup();
+
+        
+            var html_3378337f5e804f5b92528b4860581435 = $(`<div id="html_3378337f5e804f5b92528b4860581435" style="width: 100.0%; height: 100.0%;"><b>洪河村</b><br><p>HQHM2: -; D4c1b, C2a, 东北亚成分</p><p>HQHM3: -; D4j, P[质量较差无法细分], 东北亚成分</p><p>HQHM4: -; D4b2a, Q1a1a(F1907-), 东北亚成分</p><p>HQHM5: -; D4, n/a, 东北亚成分</p><br><a href="https://doi.org/10.1017/ehs.2020.16">查看论文</a><br><a href="https://mp.weixin.qq.com/s?__biz=MzA4MjA1MTQ4Ng==&mid=100000049&idx=1&sn=48168cee08549efc9ba2bfdb161c34b1&chksm=1f8ae9c028fd60d60ca2ff51f92d285586cc4467adcad6ca84b21fba16af36a84bfc848d8855&mpshare=1&scene=1&srcid=0822sBFnLjMGjQXenNngq8fc&sharer_sharetime=1598084935291&sharer_shareid=f69052cfa0ca88264edded3f7d59d41c&key=55250639f247efc13dbf1349883e695db8658c7f484bb255b11d4788c70ffd62bbf325af33f6c2033518882b4d804116ac8912695a488df3dd7affe3f27c7e738b5ae1b20a5b533bf3fac78f318d1a36177301dde6c4c65a436fbd1057cec8ad51361fffd471e792b7ca50f3735672b48aca76ada069343d3428709ed3344f0c&ascene=1&uin=MTIyMzAwMzkwMA%3D%3D&devicetype=Windows+10+x64&version=62090529&lang=zh_CN&exportkey=AfFOAaYy1DJryt3Wzh6MZHo%3D&pass_ticket=BYjPKI0ysxCvUjzvGaQvrS531YRxa78AC4JJ3oiYv%2FyXZZ3huJowVAuj%2BR5OK6Xk">关于分析的说明</a></div>`)[0];
+            popup_e4a9c3afaf534393946da7a757d53f53.setContent(html_3378337f5e804f5b92528b4860581435);
+        
+
+        marker_fcfef573b5c14d8291370802ba1b0420.bindPopup(popup_e4a9c3afaf534393946da7a757d53f53)
+        ;
+
+        
+    
+    
+            marker_fcfef573b5c14d8291370802ba1b0420.bindTooltip(
+                `<div>
+                     <p style="font-size:150%;color:orange">洪河村【约4000年前】</p><p style="font-size:100%">昂昂溪文化（新石器晚期）</p><p style="font-size:80%;color:gray">点击图标查看基因组信息</p>
                  </div>`,
                 {"sticky": true}
             );
